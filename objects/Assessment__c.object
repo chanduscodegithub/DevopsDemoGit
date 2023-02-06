@@ -153,6 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <label>Assessment</label>
+    <nameField>
+        <label>Assessment Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Assessments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Release_Cycle__c</fullName>
         <externalId>false</externalId>
@@ -173,13 +182,4 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Assessment</label>
-    <nameField>
-        <label>Assessment Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Assessments</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
